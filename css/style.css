@@ -4,7 +4,6 @@ body{
 }
 
 /* stile header */
-
 #nav{
     background-image: url(/image/pattern.png);
     background-color: lightskyblue;
@@ -20,7 +19,7 @@ body{
     margin-left: 5px;
 }
 
-#hero{
+.shift-left{
     margin-left: 5px;
     /* margin-top: 0px; */
 }
@@ -59,6 +58,35 @@ body{
 }
 
 /* stili main */
+.marked{
+    background-color: yellow;
+}
+
+table{
+    font-size: 13px;
+    text-align: left;
+    
+}
+
+th, td{
+    padding: 16px;
+}
+
+
+thead{
+    background-color: rgb(25, 64, 238);
+}
+
+.sorgente tr:nth-child(even){
+    background-color: white;
+}
+
+.sorgente tr:nth-child(odd){
+    background-color: aquamarine;
+    
+}
+
+
 
 
 
