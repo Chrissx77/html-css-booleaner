@@ -9,8 +9,6 @@ body {
 }
 
 /* stile header */
-
-
 #nav {
     background-image: url(/image/pattern.png);
     background-color: lightskyblue;
@@ -110,7 +108,6 @@ thead {
 }
 
 /* stili footer */
-
 .foot-image {
     background-repeat: no-repeat;
     background-size: contain;
