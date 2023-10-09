@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
 /* stile header */
-#nav{
+#nav {
     background-image: url(/image/pattern.png);
     background-color: lightskyblue;
     background-size: cover;
@@ -14,81 +14,103 @@ body{
     padding-top: 50px;
 }
 
-#logo{
+#logo {
     width: 18%;
     margin-left: 5px;
 }
 
-.shift-left{
+.shift-left {
     margin-left: 5px;
     /* margin-top: 0px; */
 }
 
-.title{
+.title {
     font-size: x-large;
 }
 
-.title h1{
+.title h1 {
     margin-bottom: 0px;
 }
 
-.sub-title p{
+.sub-title p {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.gray {
     color: gray;
 }
 
-.sub-title a{
+.sub-title a {
     color: rgb(42, 106, 165);
     text-decoration: none;
 }
 
-#data{
+#data {
     font-size: 12px;
     margin-top: 0px;
 }
 
-#image{
+#image {
     margin-top: 20px;
 }
 
-#didasc{
+#didasc {
     margin-top: 0;
     font-size: 12px;
 }
 
 /* stili main */
-.marked{
+.marked {
     background-color: yellow;
 }
 
-table{
+table {
     font-size: 13px;
     text-align: left;
-    
+    margin: 0px;
+    border-collapse: collapse;
+
 }
 
-th, td{
+th,
+td {
     padding: 16px;
 }
 
 
-thead{
+thead {
     background-color: rgb(25, 64, 238);
 }
 
-.sorgente tr:nth-child(even){
+.sorgente tr:nth-child(even) {
     background-color: white;
 }
 
-.sorgente tr:nth-child(odd){
+.sorgente tr:nth-child(odd) {
     background-color: aquamarine;
-    
+
 }
 
+/* stili footer */
 
+.foot-image {
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 150px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
 
+.img1{
+    background-image: url(/image/monitor.jpg);
+}
+.img2{
+    background-image: url(/image/graph.jpg);
+}
 
-
-
+.no-pad{
+    padding-bottom: 0px;
+}
 
