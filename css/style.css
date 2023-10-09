@@ -22,7 +22,7 @@ body{
 
 #hero{
     margin-left: 5px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 
 .title{
@@ -36,6 +36,7 @@ body{
 .sub-title p{
     margin-top: 0px;
     margin-bottom: 0px;
+    color: gray;
 }
 
 .sub-title a{
@@ -47,6 +48,17 @@ body{
     font-size: 12px;
     margin-top: 0px;
 }
+
+#image{
+    margin-top: 20px;
+}
+
+#didasc{
+    margin-top: 0;
+    font-size: 12px;
+}
+
+/* stili main */
 
 
 
