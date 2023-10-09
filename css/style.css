@@ -3,6 +3,11 @@ body {
     padding: 0px;
 }
 
+* {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* stile header */
 #nav {
     background-image: url(/image/pattern.png);
@@ -16,7 +21,6 @@ body {
 
 #logo {
     width: 18%;
-    margin-left: 5px;
 }
 
 .shift-left {
@@ -32,9 +36,12 @@ body {
     margin-bottom: 0px;
 }
 
-.sub-title p {
-    margin-top: 0px;
+.no-marg-b {
     margin-bottom: 0px;
+}
+
+.no-marg-t {
+    margin-top: 0px;
 }
 
 .gray {
@@ -81,6 +88,8 @@ td {
 
 thead {
     background-color: rgb(25, 64, 238);
+    color: white;
+    line-height: 0px;
 }
 
 .sorgente tr:nth-child(even) {
@@ -96,21 +105,23 @@ thead {
 
 .foot-image {
     background-repeat: no-repeat;
+    background-size: contain;
     width: 240px;
     height: 150px;
-    line-height: 50px;
+    line-height: 35px;
     text-align: left;
     padding-left: 10px;
+    color: whitesmoke;
 }
 
-.img1{
+.img1 {
     background-image: url(/image/monitor.jpg);
 }
-.img2{
+
+.img2 {
     background-image: url(/image/graph.jpg);
 }
 
-.no-pad{
-    padding-bottom: 0px;
+footer div h4 {
+    margin-top: 0px;
 }
-
